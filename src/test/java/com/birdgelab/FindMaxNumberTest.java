@@ -65,4 +65,34 @@ public class FindMaxNumberTest {
         Assert.assertEquals(30.0,maxNumberFormGivenFloatNumber,0.0);
     }
 
+    @Test
+    public void givenStringValue_WhenAtFirstPostion_RetunMaxValuString_() {
+        FindMaxNumber MaxValueOfString = new FindMaxNumber();
+        String a = "Peach";
+        String b = "Apple";
+        String c = "Banana";
+        String maxValuOfStringFormGivenStrings = MaxValueOfString.FindMaxValuOfStringFormGivenStrings(a, b, c);
+        Assert.assertEquals("Peach",maxValuOfStringFormGivenStrings);
+    }
+
+    @Test
+    public void givenStringValue_WhenAtSecondPostion_RetunMaxValuString_() {
+        FindMaxNumber MaxValueOfString = new FindMaxNumber();
+        String a = "Apple";
+        String b = "Peach";
+        String c = "Banana";
+        String maxValuOfStringFormGivenStrings = MaxValueOfString.FindMaxValuOfStringFormGivenStrings(a, b, c);
+        Assert.assertEquals("Peach",maxValuOfStringFormGivenStrings);
+    }
+
+    @Test
+    public void givenStringValue_WhenAtThirdPostion_RetunMaxValuString_() {
+        FindMaxNumber MaxValueOfString = new FindMaxNumber();
+        String a = "Apple";
+        String b = "Banana";
+        String c = "Peach";
+        String maxValuOfStringFormGivenStrings = MaxValueOfString.FindMaxValuOfStringFormGivenStrings(a, b, c);
+        Assert.assertEquals("Peach",maxValuOfStringFormGivenStrings);
+    }
+
 }

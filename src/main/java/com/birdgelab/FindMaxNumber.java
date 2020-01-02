@@ -21,4 +21,12 @@ public class FindMaxNumber {
 
     }
 
+    public static String FindMaxValuOfStringFormGivenStrings(String a, String b, String c) {
+        String MaxValuString = a;
+        if (b.compareTo(MaxValuString)>0)
+            MaxValuString = b;
+        if (c.compareTo(MaxValuString)>0)
+            MaxValuString = c;
+        return MaxValuString;
+    }
 }
