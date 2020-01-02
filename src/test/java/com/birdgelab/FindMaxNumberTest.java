@@ -11,7 +11,7 @@ public class FindMaxNumberTest {
         Integer a = 30;
         Integer b = 20;
         Integer c = 10;
-        int maxNumberFormGivenNumbers = maxNumber.findMaxNumberFormGivenNumbers(a,b,c);
+        int maxNumberFormGivenNumbers = maxNumber.findMaxValueFormGivenInputes(a,b,c);
         Assert.assertEquals(30,maxNumberFormGivenNumbers);
     }
 
@@ -21,7 +21,7 @@ public class FindMaxNumberTest {
         Integer a = 20;
         Integer b = 30;
         Integer c = 10;
-        int maxNumberFormGivenNumbers = maxNumber.findMaxNumberFormGivenNumbers(a,b,c);
+        int maxNumberFormGivenNumbers = maxNumber.findMaxValueFormGivenInputes(a,b,c);
         Assert.assertEquals(30,maxNumberFormGivenNumbers);
     }
 
@@ -31,7 +31,7 @@ public class FindMaxNumberTest {
         Integer a = 20;
         Integer b = 10;
         Integer c = 30;
-        int maxNumberFormGivenNumbers = maxNumber.findMaxNumberFormGivenNumbers(a,b,c);
+        int maxNumberFormGivenNumbers = maxNumber.findMaxValueFormGivenInputes(a,b,c);
         Assert.assertEquals(30,maxNumberFormGivenNumbers);
     }
 
@@ -41,7 +41,7 @@ public class FindMaxNumberTest {
         Float a = 30.0f;
         Float b = 20.0f;
         Float c = 10.0f;
-        Float maxNumberFormGivenFloatNumber = maxNumber.findMaxNumberFormGivenFloatNumber(a,b,c);
+        Float maxNumberFormGivenFloatNumber = maxNumber.findMaxValueFormGivenInputes(a,b,c);
         Assert.assertEquals(30.0,maxNumberFormGivenFloatNumber,0.0);
     }
 
@@ -51,7 +51,7 @@ public class FindMaxNumberTest {
         Float a = 20.0f;
         Float b = 30.0f;
         Float c = 10.0f;
-        Float maxNumberFormGivenFloatNumber = maxNumber.findMaxNumberFormGivenFloatNumber(a,b,c);
+        Float maxNumberFormGivenFloatNumber = maxNumber.findMaxValueFormGivenInputes(a,b,c);
         Assert.assertEquals(30.0,maxNumberFormGivenFloatNumber,0.0);
     }
 
@@ -61,7 +61,7 @@ public class FindMaxNumberTest {
         Float a = 10.0f;
         Float b = 20.0f;
         Float c = 30.0f;
-        Float maxNumberFormGivenFloatNumber = maxNumber.findMaxNumberFormGivenFloatNumber(a,b,c);
+        Float maxNumberFormGivenFloatNumber = maxNumber.findMaxValueFormGivenInputes(a,b,c);
         Assert.assertEquals(30.0,maxNumberFormGivenFloatNumber,0.0);
     }
 
@@ -71,7 +71,7 @@ public class FindMaxNumberTest {
         String a = "Peach";
         String b = "Apple";
         String c = "Banana";
-        String maxValuOfStringFormGivenStrings = MaxValueOfString.FindMaxValuOfStringFormGivenStrings(a, b, c);
+        String maxValuOfStringFormGivenStrings = MaxValueOfString.findMaxValueFormGivenInputes(a, b, c);
         Assert.assertEquals("Peach",maxValuOfStringFormGivenStrings);
     }
 
@@ -81,7 +81,7 @@ public class FindMaxNumberTest {
         String a = "Apple";
         String b = "Peach";
         String c = "Banana";
-        String maxValuOfStringFormGivenStrings = MaxValueOfString.FindMaxValuOfStringFormGivenStrings(a, b, c);
+        String maxValuOfStringFormGivenStrings = MaxValueOfString.findMaxValueFormGivenInputes(a, b, c);
         Assert.assertEquals("Peach",maxValuOfStringFormGivenStrings);
     }
 
@@ -91,7 +91,7 @@ public class FindMaxNumberTest {
         String a = "Apple";
         String b = "Banana";
         String c = "Peach";
-        String maxValuOfStringFormGivenStrings = MaxValueOfString.FindMaxValuOfStringFormGivenStrings(a, b, c);
+        String maxValuOfStringFormGivenStrings = MaxValueOfString.findMaxValueFormGivenInputes(a, b, c);
         Assert.assertEquals("Peach",maxValuOfStringFormGivenStrings);
     }
 
