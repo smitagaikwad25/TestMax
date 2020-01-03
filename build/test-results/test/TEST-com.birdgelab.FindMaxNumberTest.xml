@@ -1,28 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.birdgelab.FindMaxNumberTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2020-01-03T06:22:51" hostname="admin1-Inspiron-3542" time="0.024">
+<testsuite name="com.birdgelab.FindMaxNumberTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2020-01-03T06:37:39" hostname="admin1-Inspiron-3542" time="0.029">
   <properties/>
-  <testcase name="givenMaxStringValue_WhenAtThirdPostion_RetunMaxValuString_" classname="com.birdgelab.FindMaxNumberTest" time="0.002"/>
-  <testcase name="givenMaxNum_WhenAtFirstPosition_ShouldRetunMaxNum" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
-  <testcase name="givenFloatMaxNum_WhenAtFirstPostion_RetunFloatMaxNum_" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
+  <testcase name="givenMaxStringValue_WhenAtThirdPostion_RetunMaxValuString_" classname="com.birdgelab.FindMaxNumberTest" time="0.006"/>
+  <testcase name="givenMaxNum_WhenAtFirstPosition_ShouldRetunMaxNum" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
+  <testcase name="givenFloatMaxNum_WhenAtFirstPostion_RetunFloatMaxNum_" classname="com.birdgelab.FindMaxNumberTest" time="0.003"/>
   <testcase name="givenMaxIntegerNum_" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
-  <testcase name="givenMaxNum_WhenAtSecondPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
-  <testcase name="givenFloatMaxNum_WhenAtThirdPostion_RetunFloatMaxNum_" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
-  <testcase name="givenMaxNum_WhenAtFirstPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
+  <testcase name="givenMaxNum_WhenAtSecondPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
+  <testcase name="givenFloatMaxNum_WhenAtThirdPostion_RetunFloatMaxNum_" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
+  <testcase name="givenMaxNum_WhenAtFirstPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
   <testcase name="givenStringMaxValue_WhenAtFirstPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
-  <testcase name="givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
-  <testcase name="givenFloatMaxNum_WhenAtSecondPostion_RetunFloatMaxNum_" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
+  <testcase name="givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
+  <testcase name="givenFloatMaxNum_WhenAtSecondPostion_RetunFloatMaxNum_" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
   <testcase name="givenFloatMultipleValues_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
   <testcase name="givenMaxNum_WhenAtSecondPostion_RetunMaxNum_" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
   <testcase name="givenMaxNum_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
-  <testcase name="givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
-  <testcase name="givenFloatMaxNum_WhenAtSecondPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
+  <testcase name="givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
+  <testcase name="givenFloatMaxNum_WhenAtSecondPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
   <testcase name="givenaMaxStringValue_WhenAtFirstPostion_RetunMaxValuString_" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
-  <testcase name="givenMaxStringValue_WhenAtSecondPostion_RetunMaxValuString_" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
-  <testcase name="givenStringMaxValue_WhenAtSecondPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
+  <testcase name="givenMaxStringValue_WhenAtSecondPostion_RetunMaxValuString_" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
+  <testcase name="givenStringMaxValue_WhenAtSecondPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.002"/>
   <testcase name="givenMaxNum_WhenAtThirdPostion_RetunMaxNum_" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
   <testcase name="givenFloatMaxNum_WhenAtFirstPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
   <testcase name="givenMultipleValues_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
-  <testcase name="givenFloatMaxNum_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenFloatMaxNum_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" classname="com.birdgelab.FindMaxNumberTest" time="0.001"/>
+  <system-out><![CDATA[ Maximum value Peach
+ Maximum value 30
+ Maximum value 30.0
+ Maximum value 30
+ Maximum value 30
+ Maximum value 30.0
+ Maximum value 30
+ Maximum value Peach
+ Maximum value Peach
+ Maximum value 30.0
+ Maximum value 40.0
+ Maximum value 30
+ Maximum value 30
+ Maximum value Peach
+ Maximum value 30.0
+ Maximum value Peach
+ Maximum value Peach
+ Maximum value Peach
+ Maximum value 30
+ Maximum value 30.0
+ Maximum value 40
+ Maximum value 30.0
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df1d1cf-5cbc-4eff-b1e3-2bb0299166a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/birdgelab/FindMaxNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/birdgelab/FindMaxNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/birdgelab/FindMaxNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/birdgelab/FindMaxNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/birdgelab/FindMaxNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="211" column="7" lean-forward="true" selection-start-line="211" selection-start-column="7" selection-end-line="211" selection-end-column="7" />
+            <state relative-caret-position="2745">
+              <caret line="222" column="27" lean-forward="true" selection-start-line="222" selection-start-column="27" selection-end-line="222" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,12 +47,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/birdgelab/FindMaxNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="315">
+              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
                 <element signature="e#423#424#0" expanded="true" />
               </folding>
             </state>
@@ -76,8 +78,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/birdgelab/FindMaxNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/birdgelab/FindMaxNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/birdgelab/FindMaxNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/birdgelab/FindMaxNumber.java" />
       </list>
     </option>
   </component>
@@ -170,6 +172,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="FindMaxNumberTest.givenFloatMultipleValues_ShouldRetunMaxNumByUsingGenericClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.birdgelab.FindMaxNumberTest.givenFloatMultipleValues_ShouldRetunMaxNumByUsingGenericClass&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="FindMaxNumberTest.givenMultipleValues_ShouldRetunMaxNumByUsingGenericClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,32 +212,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FindMaxNumberTest.givenStringMaxValue_WhenAtFirstPosition_ShouldRetunMaxNumByUsingGenericClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindMaxNumberTest.givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.birdgelab.FindMaxNumberTest.givenStringMaxValue_WhenAtFirstPosition_ShouldRetunMaxNumByUsingGenericClass&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="FindMaxNumberTest.givenStringMaxValue_WhenAtSecondPosition_ShouldRetunMaxNumByUsingGenericClass" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.birdgelab.FindMaxNumberTest.givenStringMaxValue_WhenAtSecondPosition_ShouldRetunMaxNumByUsingGenericClass&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.birdgelab.FindMaxNumberTest.givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -253,10 +255,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.FindMaxNumberTest" />
+        <item itemvalue="Gradle.FindMaxNumberTest.givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass" />
+        <item itemvalue="Gradle.FindMaxNumberTest.givenFloatMultipleValues_ShouldRetunMaxNumByUsingGenericClass" />
         <item itemvalue="Gradle.FindMaxNumberTest.givenMultipleValues_ShouldRetunMaxNumByUsingGenericClass" />
         <item itemvalue="Gradle.FindMaxNumberTest.givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" />
-        <item itemvalue="Gradle.FindMaxNumberTest.givenStringMaxValue_WhenAtSecondPosition_ShouldRetunMaxNumByUsingGenericClass" />
-        <item itemvalue="Gradle.FindMaxNumberTest.givenStringMaxValue_WhenAtFirstPosition_ShouldRetunMaxNumByUsingGenericClass" />
       </list>
     </recent_temporary>
   </component>
@@ -274,24 +276,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindMaxNumberTest_givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass - 2020.01.03 at 11h 26m 35s.xml">
-      <configuration name="FindMaxNumberTest.givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FindMaxNumberTest_givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass - 2020.01.03 at 11h 26m 51s.xml">
-      <configuration name="FindMaxNumberTest.givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FindMaxNumberTest_givenMaxNum_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass - 2020.01.03 at 11h 26m 52s.xml">
-      <configuration name="FindMaxNumberTest.givenMaxNum_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FindMaxNumberTest_givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass - 2020.01.03 at 11h 29m 15s.xml">
-      <configuration name="FindMaxNumberTest.givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FindMaxNumberTest_givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass - 2020.01.03 at 11h 29m 18s.xml">
-      <configuration name="FindMaxNumberTest.givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="FindMaxNumberTest_givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass - 2020.01.03 at 11h 30m 39s.xml">
-      <configuration name="FindMaxNumberTest.givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="FindMaxNumberTest_givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass - 2020.01.03 at 11h 31m 00s.xml">
       <configuration name="FindMaxNumberTest.givenStringMaxValue_WhenAtThirdPosition_ShouldRetunMaxNumByUsingGenericClass" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -304,28 +288,46 @@
     <history-entry file="FindMaxNumberTest - 2020.01.03 at 11h 39m 26s.xml">
       <configuration name="FindMaxNumberTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="FindMaxNumberTest_givenFloatMultipleValues_ShouldRetunMaxNumByUsingGenericClass - 2020.01.03 at 11h 41m 29s.xml">
+      <configuration name="FindMaxNumberTest.givenFloatMultipleValues_ShouldRetunMaxNumByUsingGenericClass" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FindMaxNumberTest_givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass - 2020.01.03 at 11h 46m 29s.xml">
+      <configuration name="FindMaxNumberTest.givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FindMaxNumberTest - 2020.01.03 at 11h 46m 49s.xml">
+      <configuration name="FindMaxNumberTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FindMaxNumberTest_givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass - 2020.01.03 at 11h 50m 57s.xml">
+      <configuration name="FindMaxNumberTest.givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FindMaxNumberTest_givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass - 2020.01.03 at 11h 51m 56s.xml">
+      <configuration name="FindMaxNumberTest.givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FindMaxNumberTest - 2020.01.03 at 11h 52m 51s.xml">
+      <configuration name="FindMaxNumberTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49657536" visible="true" weight="0.023942538" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4962963" visible="true" weight="0.023942538" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Learn" order="5" />
-      <window_info id="Structure" order="6" sideWeight="0.50342464" side_tool="true" visible="true" weight="0.023942538" />
+      <window_info id="Structure" order="6" sideWeight="0.5037037" side_tool="true" visible="true" weight="0.023942538" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.048859935" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17100978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.18892509" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.048859935" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.12052117" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -338,18 +340,6 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/birdgelab/FindMaxNumberTest.java</url>
-          <line>132</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
@@ -383,22 +373,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/birdgelab/FindMaxNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/birdgelab/FindMaxNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="2745">
+          <caret line="222" column="27" lean-forward="true" selection-start-line="222" selection-start-column="27" selection-end-line="222" selection-end-column="27" />
           <folding>
-            <element signature="e#423#424#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/birdgelab/FindMaxNumberTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/birdgelab/FindMaxNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="211" column="7" lean-forward="true" selection-start-line="211" selection-start-column="7" selection-end-line="211" selection-end-column="7" />
+        <state relative-caret-position="315">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
           </folding>
         </state>
       </provider>
