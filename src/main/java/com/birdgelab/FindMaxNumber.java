@@ -1,14 +1,12 @@
 package com.birdgelab;
 
-public class FindMaxNumber<E extends Comparable> {
-    E myAValue;
-    E myBValue;
-    E myCValue;
+import java.util.Arrays;
 
-    public FindMaxNumber(E myAValue, E myBValue, E myCValue) {
-        this.myAValue = myAValue;
-        this.myBValue = myBValue;
-        this.myCValue = myCValue;
+public class FindMaxNumber<E extends Comparable> {
+    E [] myValue;
+
+    public FindMaxNumber(E... myValue) {
+        this.myValue = myValue;
     }
 
     public FindMaxNumber() {
@@ -16,17 +14,12 @@ public class FindMaxNumber<E extends Comparable> {
     }
 
     public E testMaximum () {
-        return testMaximum(myAValue,myBValue,myCValue);
+        return testMaximum(myValue);
     }
 
-    public static <E extends Comparable > E testMaximum(E a, E b, E c)  {
-        E MaxNum = a;
-        if (b.compareTo(MaxNum)>0)
-            MaxNum = b;
-        if (c.compareTo(MaxNum)>0)
-                MaxNum = c;
-        return MaxNum;
+    public static <E extends Comparable > E testMaximum(E... myValue)  {
+        Arrays.sort(myValue);
+        return (myValue[myValue.length-1]);
     }
-
 
 }

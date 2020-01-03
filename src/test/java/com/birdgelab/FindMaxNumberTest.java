@@ -190,7 +190,40 @@ public class FindMaxNumberTest {
         String a = "Banana";
         String b = "Apple";
         String c = "Peach";
-        FindMaxNumber<Comparable> findMaxNumber = new FindMaxNumber<>(a, b, c);
+         FindMaxNumber<Comparable> findMaxNumber = new FindMaxNumber<>(a, b, c);
+        Comparable comparable = findMaxNumber.testMaximum();
+        Assert.assertEquals("Peach",comparable);
+    }
+
+    @Test
+    public void givenMultipleValues_ShouldRetunMaxNumByUsingGenericClass() {
+        Integer a = 20;
+        Integer b = 30;
+        Integer c = 10;
+        Integer d = 40;
+        FindMaxNumber<Comparable> findMaxNumber = new FindMaxNumber<>(a, b, c, d);
+        Comparable comparable = findMaxNumber.testMaximum();
+        Assert.assertEquals(40,comparable);
+    }
+
+    @Test
+    public void givenFloatMultipleValues_ShouldRetunMaxNumByUsingGenericClass() {
+        Float a = 30.0f;
+        Float b = 20.0f;
+        Float c = 10.0f;
+        Float d = 40.0f;
+        FindMaxNumber<Comparable> findMaxNumber = new FindMaxNumber<>(a, b, c, d);
+        Comparable comparable = findMaxNumber.testMaximum();
+        Assert.assertEquals(40.0f,comparable);
+    }
+
+    @Test
+    public void givenStringMaxValue_ShouldRetunMaxNumByUsingGenericClass() {
+        String a = "Banana";
+        String b = "Apple";
+        String c = "Peach";
+        String d = "Orange";
+        FindMaxNumber<Comparable> findMaxNumber = new FindMaxNumber<>(a, b, c, d);
         Comparable comparable = findMaxNumber.testMaximum();
         Assert.assertEquals("Peach",comparable);
     }
